@@ -3,10 +3,11 @@ Merge Two Sorted Arrays：合并排序数组。
 
 ![image](https://user-images.githubusercontent.com/91653378/137281943-d3a7bcfe-4d03-4248-b675-26486a0c25d4.png)
 
+```Java
 // Solution 2: Recursion
 --------
 class Solution {
-    public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+    public ListNode mergeTwoLists(ListNode l1, ListNode l2) 
         // base case;
         if (l1 == null) {
             return l2;
@@ -26,3 +27,4 @@ class Solution {
         }
     }
 }
+```
